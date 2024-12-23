@@ -1,34 +1,83 @@
-html
-    head
-        title
-        include ../components/people_head.jade
-    body
-        include ../components/header.jade
-        #title.container
-            h1.row.s12
-                span.part2 Mikail | 
-                span.part1 Alejandro
-        #basics.container
-            .row
-                .col.s8
-                    |   <p>Mikail.Alejandro <img src="images/at.gif" class="at"> ucsf.edu</p>
-                    |   <p><em>Junior Specialist</em></p>
-                .col.s4
-                    img.responsive-img.z-depth-1(src="images/mikailalejandro.jpg")
 
-            #education
-                h3 Education
-
-                p 2022-present
-                .degrees PROPEL post-baccalaureate scholar 
-                .degrees University of California, San Francisco
-
-                p 2018-2022
-                .degrees B.S., Chemistry 
-                .degrees University of San Francisco 
-
-
-                h3 Publications
-                p Gallivan, A., <strong>Alejandro, M.</strong>, Kanu, A., Zekaryas, N., Horneman, H., Hong, L. K., Vinchinsky, E., Lavelle, D., Diamond, A. M., Molokie, R. E., Ramasamy, J., & Rivers, A. (2023). Reticulocyte mitochondrial retention increases reactive oxygen species and oxygen consumption in mouse models of sickle cell disease and phlebotomy-induced anemia. Experimental Hematology. https://doi.org/10.1016/j.exphem.2023.02.005
-                 
-        include ../components/footer.jade
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/people.css"  media="screen,projection"/>
+  </head>
+  <body>
+    <nav class="blue-grey darken-2">
+      <div class="nav-wrapper container"><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a><a id="logo" href="http://limlab.ucsf.edu/index.html"><img src="http://limlab.ucsf.edu/images/logo.png" height="43px" width="47px"/></a>
+        <ul id="nav-mobile" class="right side-nav">
+          <li><a href="http://limlab.ucsf.edu/index.html">Home</a></li>
+          <li><a href="http://limlab.ucsf.edu/research.html">Research</a></li>
+          <li><a href="http://limlab.ucsf.edu/people.html">People</a></li>
+          <li><a href="http://limlab.ucsf.edu/papers.html">Papers</a></li>
+          <li><a href="http://limlab.ucsf.edu/join.html">Join</a></li>
+          <li><a href="http://limlab.ucsf.edu/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="title" class="container">
+      <h1 class="row s12"><span class="part2">Mikail Gerard | </span><span class="part1">Alejandro</span></h1>
+    </div>
+    <div id="basics" class="container">
+      <div class="row">
+        <div class="col s8">
+            <p>Mikail.Alejandro <img src="images/at.gif" class="at"> ucsf.edu</p>
+            <p><em>Junior Specialist</em></p>
+        </div>
+        <div class="col s4"><img src="images/mikailalejandro.jpg" class="responsive-img z-depth-1"/></div>
+      </div>
+      <div id="education">
+        <h3>Education</h3>
+        <p>2022-present</p>
+        <div class="degrees">PROPEL post-baccalaureate scholar </div>
+        <div class="degrees">University of California, San Francisco</div>
+        <p>2022-2024</p>
+        <div class="degrees">Pre-health Professionals Certificate Program </div>
+        <div class="degrees">University of California, Berkeley Extension </div>
+        <p>2018-2022</p>
+        <div class="degrees">B.S., Chemistry </div>
+        <div class="degrees">University of San Francisco </div>
+        <h3>Research interests</h3>
+        <p>Development and optimization of non-viral methods for large payload intregration.</p>
+        <h3>Awards</h3>
+        <p>2024 American Physician-Scientist Association and Burroughs Wellcome Fund Diversity Summit Fellow</p>
+        <p>2022 PROPEL Scholar</p>
+        <p>2022 Fulbright-Hays GPA scholar</p>
+        <p>2021 UCSF SSRP NIH scholar</p>
+        <h3>Publications</h3>
+        <p><strong>Alejandro, MG</strong>., Schultz K., Killilea DW. Blood draw site and blood matrix influence mineral assessment. bioRxiv. Published online January 1, 2024:2024.11.23.625018. doi:10.1101/2024.11.23.625018</p>
+      </div>
+        <p>Gallivan, A., <strong>Alejandro, MG</strong>., Kanu, A., Zekaryas, N., Horneman, H., Hong, L. K., Vinchinsky, E., Lavelle, D., Diamond, A. M., Molokie, R. E., Ramasamy, J., & Rivers, A. (2023). Reticulocyte mitochondrial retention increases reactive oxygen species and oxygen consumption in mouse models of sickle cell disease and phlebotomy-induced anemia. Experimental Hematology. https://doi.org/10.1016/j.exphem.2023.02.005</p>
+      </div>      
+    </div>
+    <footer class="page-footer blue-grey">
+      <div class="container">
+        <div class="row">
+          <h5 class="white-text">Community</h5>
+          <div class="col l6 s12">
+            <li> <a href="http://cmp.ucsf.edu" class="grey-text text-lighten-3">Department of Cellular &amp; Molecular Pharmacology</a></li>
+            <li><a href="http://celldesigninstitute.org/" class="grey-text text-lighten-3">UCSF Cell Design Institute</a></li>
+          </div>
+          <div class="col l6 s12"></div>
+        </div>
+      </div>
+      <div class="footer-copyright white-text">
+        <div class="container">&copy; 2023 UCSF Lim Lab<a href="http://limlab.ucsf.edu/links.html" class="grey-text text-lighten-4 right">More Links</a></div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	$(".button-collapse").sideNav();
+      	$('.collapsible').collapsible();
+      	$('.tooltipped').tooltip({"delay": 50});
+      });
+    </script>
+  </body>
+</html>
