@@ -1,0 +1,39 @@
+html
+    head
+        title
+        include ../components/people_head.jade
+    body
+        include ../components/header.jade
+        #title.container
+            h1.row.s12
+                span.part2 Utsav 
+                span.part1 Bhavsar
+        #basics.container
+            .row
+                .col.s8
+                    |   <p>utsav.bhavsar <img src="images/at.gif" class="at"> ucsf.edu</p>
+                    |   <p><em>Junior Specialist</em></p>
+                .col.s4
+                    img.responsive-img.z-depth-1(src="images/utsavbhavsar.JPG")
+
+            #education
+                h3 Education
+
+                p 2022-2024
+                .degrees Masters, Biotechnology
+                .degrees University of San Francisco
+
+                p 2015-2019
+                .degrees B.E., Biomedical Engineering
+                .degrees Saint Louis University
+
+                h3 Research Interests
+                p Utilizing synthetic biology to design and engineer cell therapies.
+
+                //- h3 Awards
+                //- p 
+
+                //- h3 Publications
+                //- p 
+                 
+        include ../components/footer.jade
