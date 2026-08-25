@@ -1,0 +1,625 @@
+Running "sass:dist" (sass) task
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "materialize";
+  │         ^^^^^^^^^^^^^
+  ╵
+    src/sass/index.scss 1:9  root stylesheet
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "components/prefixer";
+  │         ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 4:9  root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "components/mixins";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 5:9  root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "components/color";
+  │         ^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 6:9  root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "components/variables";
+  │         ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 9:9  root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "components/normalize";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/materialize.scss 12:9  root stylesheet
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "components/prefixer";
+  │         ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 4:9  @import
+    src/sass/index.scss 1:9        root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "components/mixins";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 5:9  @import
+    src/sass/index.scss 1:9        root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "components/color";
+  │         ^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 6:9  @import
+    src/sass/index.scss 1:9        root stylesheet
+
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "components/variables";
+  │         ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/sass/materialize.scss 9:9  @import
+    src/sass/index.scss 1:9        root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.has-key instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+402 │   @if map-has-key($colors, $color) {
+    │       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 402:7     color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.has-key instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+402 │   @if map-has-key($colors, $color) {
+    │       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 402:7     color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             @import
+    src/sass/index.scss 1:9                   root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+403 │     $curr_color: map-get($colors, $color);
+    │                  ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 403:18    color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+403 │     $curr_color: map-get($colors, $color);
+    │                  ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 403:18    color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             @import
+    src/sass/index.scss 1:9                   root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.has-key instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+404 │     @if map-has-key($curr_color, $type) {
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 404:9     color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.has-key instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+404 │     @if map-has-key($curr_color, $type) {
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 404:9     color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             @import
+    src/sass/index.scss 1:9                   root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+405 │       @return map-get($curr_color, $type);
+    │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 405:15    color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+405 │       @return map-get($curr_color, $type);
+    │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_color.scss 405:15    color()
+    src/sass/components/_variables.scss 5:16  @import
+    src/sass/materialize.scss 9:9             @import
+    src/sass/index.scss 1:9                   root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+462 │     background-color: lighten($progress-bar-color, 40%);
+    │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_global.scss 462:23  @import
+    src/sass/materialize.scss 15:9           root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 77.566539924%)
+color.adjust($color, $lightness: 40%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+462 │     background-color: lighten($progress-bar-color, 40%);
+    │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_global.scss 462:23  @import
+    src/sass/materialize.scss 15:9           root stylesheet
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+462 │     background-color: lighten($progress-bar-color, 40%);
+    │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_global.scss 462:23  @import
+    src/sass/materialize.scss 15:9           @import
+    src/sass/index.scss 1:9                  root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 77.566539924%)
+color.adjust($color, $lightness: 40%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+462 │     background-color: lighten($progress-bar-color, 40%);
+    │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    src/sass/components/_global.scss 462:23  @import
+    src/sass/materialize.scss 15:9           @import
+    src/sass/index.scss 1:9                  root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+10  │ ┌   @media only screen and (min-width: 0) {
+11  │ │     font-size: 14px;
+12  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+14  │ ┌   @media only screen and (min-width: $medium-screen) {
+15  │ │     font-size: 14.5px;
+16  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+18  │ ┌   @media only screen and (min-width: $large-screen) {
+19  │ │     font-size: 15px;
+20  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+10  │ ┌   @media only screen and (min-width: 0) {
+11  │ │     font-size: 14px;
+12  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             @import
+    src/sass/index.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+14  │ ┌   @media only screen and (min-width: $medium-screen) {
+15  │ │     font-size: 14.5px;
+16  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             @import
+    src/sass/index.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+18  │ ┌   @media only screen and (min-width: $large-screen) {
+19  │ │     font-size: 15px;
+20  │ │   }
+    │ └─── nested rule
+... │
+22  │     font-family: "Roboto", sans-serif;
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 22:3  @import
+    src/sass/materialize.scss 20:9             @import
+    src/sass/index.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+10  │ ┌   @media only screen and (min-width: 0) {
+11  │ │     font-size: 14px;
+12  │ │   }
+    │ └─── nested rule
+... │
+23  │     font-weight: normal;
+    │     ^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 23:3  @import
+    src/sass/materialize.scss 20:9             root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+14  │ ┌   @media only screen and (min-width: $medium-screen) {
+15  │ │     font-size: 14.5px;
+16  │ │   }
+    │ └─── nested rule
+... │
+23  │     font-weight: normal;
+    │     ^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 23:3  @import
+    src/sass/materialize.scss 20:9             root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+10  │ ┌   @media only screen and (min-width: 0) {
+11  │ │     font-size: 14px;
+12  │ │   }
+    │ └─── nested rule
+... │
+23  │     font-weight: normal;
+    │     ^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 23:3  @import
+    src/sass/materialize.scss 20:9             @import
+    src/sass/index.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Sass's behavior for declarations that appear after nested
+rules will be changing to match the behavior specified by CSS in an upcoming
+version. To keep the existing behavior, move the declaration above the nested
+rule. To opt into the new behavior, wrap the declaration in `& {}`.
+
+More info: https://sass-lang.com/d/mixed-decls
+
+    ╷
+14  │ ┌   @media only screen and (min-width: $medium-screen) {
+15  │ │     font-size: 14.5px;
+16  │ │   }
+    │ └─── nested rule
+... │
+23  │     font-weight: normal;
+    │     ^^^^^^^^^^^^^^^^^^^ declaration
+    ╵
+    src/sass/components/_typography.scss 23:3  @import
+    src/sass/materialize.scss 20:9             @import
+    src/sass/index.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 53.4031413613%)
+color.adjust($color, $lightness: 20%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+36 │     &:hover { color: lighten(color("orange", "accent-2"), 20%); }
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_cards.scss 36:22  @import
+    src/sass/materialize.scss 21:9         root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 53.4031413613%)
+color.adjust($color, $lightness: 20%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+36 │     &:hover { color: lighten(color("orange", "accent-2"), 20%); }
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_cards.scss 36:22  @import
+    src/sass/materialize.scss 21:9         @import
+    src/sass/index.scss 1:9                root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 36.2845849802%)
+color.adjust($color, $lightness: 18%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+23 │       color: lighten(color("materialize-red", "base"), 18%);
+   │              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_tabs.scss 23:14  @import
+    src/sass/materialize.scss 23:9        root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 36.2845849802%)
+color.adjust($color, $lightness: 18%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+23 │       color: lighten(color("materialize-red", "base"), 18%);
+   │              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_tabs.scss 23:14  @import
+    src/sass/materialize.scss 23:9        @import
+    src/sass/index.scss 1:9               root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 10.8974358974%)
+color.adjust($color, $lightness: 5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+46 │     background-color: lighten($button-color, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_buttons.scss 46:23  @import
+    src/sass/materialize.scss 25:9           root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 10.8974358974%)
+color.adjust($color, $lightness: 5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+46 │     background-color: lighten($button-color, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_buttons.scss 46:23  @import
+    src/sass/materialize.scss 25:9           @import
+    src/sass/index.scss 1:9                  root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 25%)
+color.adjust($color, $lightness: 10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+95 │     color: lighten(#999, 10%);
+   │            ^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_buttons.scss 95:12  @import
+    src/sass/materialize.scss 25:9           root stylesheet
+
+DEPRECATION WARNING: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 25%)
+color.adjust($color, $lightness: 10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+95 │     color: lighten(#999, 10%);
+   │            ^^^^^^^^^^^^^^^^^^
+   ╵
+    src/sass/components/_buttons.scss 95:12  @import
+    src/sass/materialize.scss 25:9           @import
+    src/sass/index.scss 1:9                  root stylesheet
+
+WARNING: 48 repetitive deprecation warnings omitted.
+
+WARNING: 49 repetitive deprecation warnings omitted.
+
+
+Running "jade:compileAll" (jade) task
+>> 69 files created.
+
+Running "cssmin:main" (cssmin) task
+>> No files created.
+
+Running "copy:main" (copy) task
+Created 21 directories, copied 697 files
+
+Done.
