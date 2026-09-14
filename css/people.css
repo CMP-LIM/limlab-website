@@ -1,0 +1,112 @@
+#current .photos {
+  height: 300px;
+  overflow: hidden;
+  padding: 0;
+}
+#current .photos img {
+  height: 300px;
+}
+#current #principal br {
+  height: 50px;
+}
+#current #principal .row {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+#current #principal h3.name {
+  font: 20px/20px Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#current #principal h3.name a {
+  text-decoration: none;
+}
+#current #principal h3.header {
+  font: 26px/36px Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #F15A24;
+}
+#current #principal h4.position {
+  font: 16px/26px Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: normals;
+  margin-top: 0;
+  color: #000000;
+  margin-bottom: 0;
+}
+#current #principal a {
+  color: black;
+  text-decoration: underline;
+}
+#current #principal p {
+  margin-top: 0px;
+  font: 16px/26px Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+}
+#current .member {
+  font: 20px/20px Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+#current .member .position {
+  font-size: 0.8em;
+  float: right;
+  color: #777;
+}
+#current .member a {
+  color: #333;
+  text-decoration: none !important;
+}
+#current .member a::after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nO2VQQrCMBBF3yUMHkE8Sc9tFy50ZRfuU5DeYqRQoSgTZ0KsWPNhlvNf+/NJoOpH1QKizPFbYGEhbYDL0uAAdBOss4IboH8T2fMMwF6BBis4FoZiBeeex/xMr8DW6ykZYO1P520/lAZr0Ef8ZokDrMW7A26fAodEvENOT8SwlCqS5+PdS6dEkaweWUvjhX9WoFaPF5W4VyvYpBr1+ssVne+xNqOPS00BeJx8qv5Yd5herU1jqGmdAAAAAElFTkSuQmCC);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAjUlEQVR4nO2VQQqAIBBF3yUmOlJXqePmor0dxAgMhGoc01b1YHYz/4kMCj+FDMAKBKUOLD0nfGYw1AqyDRcIML8l6AAXZ1xrgSQnX4C+pUAuwmklkJvwJgJRwk1oAqkN1wRiDH90RVJw8keCKdnzfe9L500NoyG8SmDlAwJveK5DpvYM9cOpkfiY8YOZDdq3j/znzI3XAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: 12px 12px; /* Control the size of the image */
+  display: inline-block;
+  position: relative;
+  margin-bottom: 7px;
+  width: 12px; /* Width of the ::after element */
+  height: 12px; /* Height of the ::after element */
+  content: ""; /* Required for ::after to work, but we're not putting content inside it */
+}
+
+.alum {
+  font: 20px/20px Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.alum h3 {
+  margin-top: 0;
+}
+
+.alum p {
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#alumni h1 a {
+  text-decoration: underline;
+  color: black;
+}
+#alumni #collage .col {
+  padding: 0;
+}
+#alumni #collage .photo img {
+  width: 100%;
+}
+#alumni .modal {
+  width: auto;
+  height: auto;
+}
+#alumni .modal img {
+  width: 100%;
+}
+#alumni table tr td p {
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=people.css.map */
