@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+
+      - name: Set up environment and build
+        shell: bash -l {0}
+        run: |
+          chmod +x ./config_conda_env.sh
+          ./config_conda_env.sh
+          conda activate limlab-website
+          rm -rf dest
+          grunt
+
+      - name: Verify build and add .nojekyll
+        run: |
+          if [ ! -d "dest" ]; then
+            echo "Build failed: 'dest' directory not created."
+            exit 1
+          fi
+          touch dest/.nojekyll
+          echo "limlab.ucsf.edu" > dest/CNAME
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
